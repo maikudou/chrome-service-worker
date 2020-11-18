@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "outDir": "./built",
+    "target": "ES2017",
+    "moduleResolution": "node",
+    "types": ["chrome"],
+    "sourceMap": true
+  },
+  "include": ["./src/*.ts"]
+}
