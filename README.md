@@ -4,7 +4,7 @@ Test repo for Chrome extensions service worker migration questions
 
 ## Test service worker longevity
 
-In my observation it gets killed approximately every 300 seconds in version `89.0.4328.0 (Official Build) canary (x86_64)`
+In my observation it gets killed approximately every 320 seconds in version `89.0.4328.0 (Official Build) canary (x86_64)`
 
 ### How to test
 
@@ -24,4 +24,4 @@ Socket lives untill there are connections to it and to sockets form it
 
 #### Actual behavior
 
-Socket it killed every 300 seconds
+Socket is killed every 320 seconds
